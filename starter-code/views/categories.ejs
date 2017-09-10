@@ -2,7 +2,7 @@
     <h1>Categories</h1>
       <ul>
         <% categoryType.forEach((category) => { %>
-          <li><a href="/cat=<%=category%>"> <%=category %></a></li>
+          <li><a href="categories/<%= category %>"><%= category %></a></li>
         <% }); %>
       </ul>
   </body>
